@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NGO</title>
+    <link rel="stylesheet" href="donateStyle.css">
 </head>
 <body>
-    <h1>Donate Page</h1>
+    
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title"></h3class>Billing address</h3>
+                    <div class="inputbox">
+                        <span>Full Name: </span>
+                        <input type="text" placeholder="John Deo">
+                    </div>
+                    <div class="inputbox">
+                        <span>Email: </span>
+                        <input type="email" placeholder="johndeo@gmail.com">
+                    </div>
+                    <div class="inputbox">
+                        <span>Address: </span>
+                        <input type="text" placeholder="Building - Society - Locality">
+                    </div>
+                    <div class="inputbox">
+                        <span>City: </span>
+                        <input type="text" placeholder="Mumbai">
+                    </div>
+                    <div class="flex">
+                        <div class="inputbox">
+                            <span>State: </span>
+                            <input type="text" placeholder="Maharashtra">
+                        </div>
+                        <div class="inputbox">
+                            <span>Zip Code: </span>
+                            <input type="text" placeholder="123456">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3 class="title"></h3class>Payment</h3>
+                    <div class="inputbox">
+                        <span>Cards Accepted : </span>
+                        <img src="card_img.png" alt="">
+                    </div>
+                    <div class="inputbox">
+                        <span>Name on Card : </span>
+                        <input type="text" placeholder="Mr. John Deo">
+                    </div>
+                    <div class="inputbox">
+                        <span>Credit card number : </span>
+                        <input type="number" placeholder="1234-5678-9123-4567">
+                    </div>
+                    <div class="inputbox">
+                        <span>Exp. Month : </span>
+                        <input type="text" placeholder="December">
+                    </div>
+                    <div class="flex">
+                        <div class="inputbox">
+                            <span>Exp Year: </span>
+                            <input type="number" placeholder="2024">
+                        </div>
+                        <div class="inputbox">
+                            <span>CVV: </span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Proceed to checkout" class="submit-btn">
+        </form>
+    </div>
 </body>
 </html>
